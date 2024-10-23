@@ -4,7 +4,7 @@
   "description": "'Eleventy plugin for applying splitting.js to a string of text'",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "jsdom": "^16.1.0",
     "splitting": "^1.0.6",
     "undom": "^0.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
